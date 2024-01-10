@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AndziCalc</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="calculator">
+	<input id="display" readonly>
+	<div id="keys">
+		<button onclick="appendToDisplay('7')">7</button>
+		<button onclick="appendToDisplay('8')">8</button>
+		<button onclick="appendToDisplay('9')">9</button>
+		<button onclick="appendcToDisplay('÷')" class="spchar">÷</button>
+		<button onclick="appendToDisplay('4')">4</button>
+		<button onclick="appendToDisplay('5')">5</button>
+		<button onclick="appendToDisplay('6')">6</button>
+		<button onclick="appendcToDisplay('×')" class="spchar">×</button>
+		<button onclick="appendToDisplay('1')">1</button>
+		<button onclick="appendToDisplay('2')">2</button>
+		<button onclick="appendToDisplay('3')">3</button>
+		<button onclick="appendcToDisplay('-')" class="spchar">-</button>
+		<button onclick="appendToDisplay('0')">0</button>
+		<button onclick="appendToDisplay('.')" class="Cchar">.</button>
+		<button onclick="perc()" class="Cchar" >%</button>
+		<button onclick="appendcToDisplay('+')" class="spchar">+</button>
+		<button onclick="delDisplay()" class="Cchar" >DEL</button>
+		<button onclick="clearDisplay()" class="Cchar" >C</button>
+		<button onclick="calculate()" class="spchar" >=</button>
+		
+	</div>
+</div>
+<script src="1stCalc.js"></script>
+</body>
+</html>
