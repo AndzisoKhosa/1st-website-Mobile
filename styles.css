@@ -36,7 +36,7 @@ button{
 	border-radius: 50px;
 	border: none;
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 	background-color: hsl(0, 0%, 20%, 1.0);
 	cursor: pointer;
 	text-align: center;
@@ -47,9 +47,10 @@ button{
 	border-radius: 50px;
 	border: none;
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 	background-color: orange;
 	cursor: pointer;
+	text-align: center;
 }
 .Cchar{
 	width: 50px;
@@ -57,9 +58,10 @@ button{
 	border-radius: 50px;
 	border: none;
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 	background-color: hsl(0, 0%, 50.6%, 1.0);
 	cursor: pointer;
+	text-align: center;
 }
 
 button:hover{
