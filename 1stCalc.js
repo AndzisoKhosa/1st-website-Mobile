@@ -9,7 +9,7 @@ function appendcToDisplay(input) {
 	display.value += " "+input+" ";
 }
 function delDisplay() {
-	if(display.value==="Infinity"){
+	if(display.value.includes("Infinity")){
 		display.value = ""
 	}else{
 	display.value = display.value.slice(0,-1);}
