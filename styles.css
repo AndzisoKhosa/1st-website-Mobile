@@ -63,16 +63,6 @@ button{
 	cursor: pointer;
 	text-align: center;
 }
-
-button:hover{
-background-color: hsl(0, 0%, 40%, 1.0);
-}
-.spchar:hover{
-	background-color: rgb(255, 213, 128, 1.0);
-}
-.Cchar:hover{
-	background-color: hsl(0, 0%, 80%, 1.0);
-}
 button:active{
 background-color: hsl(0, 0%, 50%, 1.0);
 }
